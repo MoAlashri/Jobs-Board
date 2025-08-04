@@ -13,7 +13,7 @@ export default function Navbar() {
   });
 
   return (
-    <header className="flex items-center justify-between w-full h-16 p-6 mx-auto mt-0 bg-white rounded-none shadow-md xl:mt-5 xl:rounded-md max-w-7xl">
+    <header className="sticky top-0 flex items-center justify-between w-full h-16 p-6 mx-auto mt-0 bg-white rounded-none shadow-md xl:mt-5 xl:rounded-md max-w-7xl backdrop-blur bg-opacity-90">
 
       {/* Logo or Brand Name */}
       <NavLink to="/">

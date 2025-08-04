@@ -1,5 +1,7 @@
-import React from 'react';
+import HeroSection from "../homeSection/HeroSection";
 
 export default function Home() {
-  return <div></div>;
+  return (
+      <HeroSection/>
+  )
 }
